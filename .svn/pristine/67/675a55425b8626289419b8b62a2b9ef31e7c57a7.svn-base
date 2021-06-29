@@ -1,0 +1,3 @@
+searchList = [
+	"안녕"
+	]

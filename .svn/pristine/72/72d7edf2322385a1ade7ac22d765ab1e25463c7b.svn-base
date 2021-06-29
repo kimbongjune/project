@@ -1,0 +1,13 @@
+@charset "utf-8";
+@font-face {
+
+      src : url("../test/font/WandohopeB.ttf");
+      
+      font-family: "jua";
+}
+@font-face {
+
+      src : url("../test/font/WandohopeR.ttf");
+      
+      font-family: "juaa";
+}

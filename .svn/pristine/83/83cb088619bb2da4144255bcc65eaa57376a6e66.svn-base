@@ -1,0 +1,81 @@
+@charset "utf-8";
+.img_wrap
+	{
+		width:300px;
+		margin-top:50px;
+		heigt:300px;
+	}
+	
+	.img_wrap img
+	{
+		max-width:100%;
+
+	}
+	
+	
+	table,td,th
+	{
+		border-bottom: 1px solid #444444;
+	    padding: 10px;
+	}
+	
+	.top
+	{
+		border-top: 1px solid #444444;
+	    padding: 10px;
+	}
+	
+	main_bg > h1
+	{
+		color: #1877F2;
+	}	
+	.con_area {
+	    width: 1120px;
+	    margin: 0 auto;
+	    padding: 0;
+	}
+	#mct
+	{
+	 	width: 100%;
+	   	height: auto;
+	   	margin: 0 auto;
+	   	color: #777;
+	   	border-top: 1px solid #e3e3e3;
+	}
+	#main_bg 
+	{
+	    text-align: center;
+	    width: 100%;
+	    height: auto;
+	    min-height: 120px;
+	    margin-bottom: 20px;
+	    padding-top: 13px;
+	    padding-bottom: 13px;
+	    background-position: center;
+	    font-family: "Nanum Gothic", "Malgun Gothic", "돋움", Dotum,Arial,sans-serif;
+	    font-size: 14px;
+	    line-height: 1.7em;
+	    display: inline-block;
+	}
+	input[type="text"]
+	{
+	    height: 45px;
+	    border: 2px solid;
+	    font-size: 15px;
+	}
+	.leftmenu2
+    {
+    	
+  	 	align:center;
+	    width: 100px;
+	    border: 2px solid #555;
+	    height: 49px;
+	    overflow: hidden;
+	    background-color: #555;
+	    color: white;
+	    cursor: pointer;
+    }
+    #spanphonenumber
+    {
+    	font-size:10pt;
+    }

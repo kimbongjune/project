@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+#start
+{
+	min-height: 100%;
+}
+div
+{
+	cursor: pointer;
+}
+
+ul, li
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.item
+{
+	position:relative;
+}
+
+.item2
+{
+	display: flex;
+	position:absolute;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
+}
+
+#slide{height:300px;position:relative;overflow:hidden; top:180px; width:100%;}
+#slide ul{width:calc(100% * 4);display:flex;animation:slide 20s infinite;}
+#slide ul:after{content:""; clear:both;}
+#slide li{float:left;width:calc(100% / 4);height:300px;}
+#slide li:nth-child(1){background-image:url("../image/M_visual.png");}
+#slide li:nth-child(2){background-image:url("../image/전주.jpg");}
+#slide li:nth-child(3){background-image:url("../image/전주1.jpg");}
+#slide li:nth-child(4){background-image:url("../image/전주풍납문3.jpg");}
+#slide input{display:none;}
+
+@keyframes slide 
+{
+	  0% {margin-left:0;} /* 0 ~ 10  : 정지 */
+	  10% {margin-left:0;} /* 10 ~ 25 : 변이 */
+	  25% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
+	  35% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
+	  50% {margin-left:-200%;}
+	  60% {margin-left:-200%;}
+	  75% {margin-left:-300%;}
+	  85% {margin-left:-300%;}
+	  100% {margin-left:0;}
+}
+
+
+#what
+{
+	font-size:30px;
+	display: flex;
+	position:relative;
+   	top:250px;
+   	color:black;
+   	
+}
+      
+ #enjoytop5
+{
+	font-size:30px;
+	display: flex;
+	z-index:1;
+	position:relative;
+	top:250px;
+	float:left;
+	padding:10px;
+	height:250px;
+	width:85%;
+	border:1px;
+	justify-content: space-around;
+	align-items: center;
+}
+    
+#enjoytop5 > div
+{
+
+	background: #003973;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #E5E5BE, #003973);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		
+	font-size:30px;
+	color:white;
+	border: 1px solid white;
+	width:100%;
+	height:100%;
+}
+
+#enjoytop5 > div:hover
+{
+	width:120%;
+	height:120%;
+}
+   
+#what_2
+{
+	font-size:30px;
+	display: flex;
+	position:relative;
+   	top:350px;
+   	color:black;
+   	
+}
+
+#enjoytop5_2
+{
+	
+	font-size:30px;
+	display: flex;
+	z-index:1;
+	position:relative;
+	top:350px;
+	float:left;
+	padding:10px;
+	height:250px;
+	width:85%;
+	border:1px;
+	justify-content: space-around;
+	align-items: center;
+}
+   
+#enjoytop5_2 > div:hover
+{
+	width:120%;
+	height:120%;
+}
+   
+#enjoytop5_2 > div
+{
+   	background: #0F2027;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	font-size:30px;
+	color:white;
+	border: 1px solid white;
+	width:100%;
+	height:100%;
+}
+
+.ac-sub-go-top
+{
+	transition-duration: 3s;
+	border-radius: 50px / 50px;
+	width: 50px;
+	height: 50px;
+	bottom:60px;
+	position: fixed;
+	right: 60px;
+	display: inline-block;
+	background:#f1f1f1 url(../image/ac-sub-go-top.png) no-repeat 50% 50%;
+	text-indent: -9999px;
+	border: none;
+	background-size: 50%;
+	display: none;
+	z-index:1;
+}
